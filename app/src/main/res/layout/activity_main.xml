@@ -26,21 +26,33 @@
 
             <Button
                 android:id="@+id/read"
-                android:layout_width="wrap_content"
+                android:layout_width="70dp"
                 android:layout_height="wrap_content"
                 android:text="read" />
 
             <Button
                 android:id="@+id/write"
-                android:layout_width="wrap_content"
+                android:layout_width="75dp"
                 android:layout_height="wrap_content"
                 android:text="write" />
 
             <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
                 android:id="@+id/clear"
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
                 android:text="clear" />
+
+            <Button
+                android:id="@+id/fileRead"
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:text="读文件" />
+
+            <Button
+                android:id="@+id/fileWrite"
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:text="写文件" />
 
         </LinearLayout>
 
